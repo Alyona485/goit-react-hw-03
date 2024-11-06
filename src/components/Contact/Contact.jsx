@@ -1,4 +1,4 @@
-import { FaUserSecret } from 'react-icons/fa6';
+import { FaUser } from 'react-icons/fa6';
 import { GiRotaryPhone } from 'react-icons/gi';
 import { TiDelete } from 'react-icons/ti';
 import s from './Contact.module.css';
@@ -8,7 +8,7 @@ const Contact = ({ contact, deleteContact }) => {
     <li className={s.contactCard}>
       <div className={s.nameNumber}>
         <div className={s.contactField}>
-          <FaUserSecret className={s.icon} />
+          <FaUser className={s.icon} />
           <p>{contact.name}</p>
         </div>
         <div className={s.contactField}>
